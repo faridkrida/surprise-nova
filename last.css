@@ -1,0 +1,15 @@
+* { box-sizing:border-box; }
+body { margin:0; min-height:100vh; padding:38px 18px; display:grid; place-items:center; font-family:'Quicksand',sans-serif; color:#604c5b; background:linear-gradient(135deg,#fff0f6,#f4edff 55%,#fff7ed); }
+.final-card { position:relative; z-index:1; width:min(100%,760px); padding:clamp(26px,6vw,55px); text-align:center; border:1px solid #ffffff; border-radius:30px; background:#ffffffc9; box-shadow:0 24px 80px #b46d951c; }
+.eyebrow { letter-spacing:.2em; font-size:.7rem; font-weight:700; color:#b27c9d; }
+h1 { margin:10px 0 22px; color:#c56898; font:700 clamp(2.8rem,8vw,4.5rem) 'Dancing Script',cursive; }
+h1 span { color:#ed83ad; }
+.portrait { display:block; width:min(100%,270px); aspect-ratio:1/1; object-fit:cover; object-position:center 40%; margin:0 auto 24px; border:7px solid white; border-radius:26px; box-shadow:0 12px 35px #9c648333; }
+h2 { color:#c56898; font-size:1.35rem; }
+.final-card p { line-height:1.9; margin:16px auto; max-width:610px; }
+.closing { font-weight:600; color:#9d5f83; }
+.signature { margin-top:28px; font:700 1.7rem 'Dancing Script',cursive; color:#c56898; }
+.back-link { display:inline-block; margin-top:28px; color:#a66b8c; text-decoration:none; font-weight:700; }
+.back-link:hover { text-decoration:underline; }
+.sparkles { position:fixed; inset:0; pointer-events:none; background-image:radial-gradient(#fff 1.5px,transparent 1.5px); background-size:45px 45px; opacity:.55; animation:drift 14s linear infinite; }
+@keyframes drift { to { background-position:45px 90px; } }
